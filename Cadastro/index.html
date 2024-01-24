@@ -5,40 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <form id="cadastroPessoa">
-        <label for="nome">
-            <p>Nome:</p>
-            <input type="text" id="nome">
+    
+    <form id="login">
+        <h2>Bem-Vindo!</h2>
+        <label for="usuario">
+            <p>Usuário:</p>
+            <input type="text" id="usuario">
         </label>
 
-        <label for="sobreNome">
-            <p>Sobrenome:</p>
-            <input type="text" id="sobreNome">
+        <label for="senha">
+            <p>Senha:</p>
+            <input type="text" id="senha">
         </label>
 
-        <label for="idade">
-            <p>Idade:</p>
-            <input type="text" id="idade">
-        </label>
+        <div id="esqueci">
+           <input type="checkbox"> Manter o Login 
+        </div>
 
-        <label for="comidaFavorita">
-            <p>Comida Favorita:</p>
-            <input type="text" id="comidaFavorita">
-        </label>
+        <button id="logar">Entrar</button>
 
-        <label for="lactose">
-            <p>Intorelante a lactose:</p>
-            <input type="text" id="lactose">
-        </label>    
+        <div id="esqueci_cadastro">
+            <div id="esqueci">Esqueci a senha</div>
+            <div id="cadastrar">Cadastrar nova conta</div>
+        </div>
+
+       
+       
+       
     </form>
 
-    <button onclick="objetoJson()">Salvar</button>
+    <div>
+        <img src="login.jpg" alt="">
+       </div>
 
-    <button onclick="pegarDados()">Pegar Dados</button>
+    <!-- ?<button onclick="objetoJson()">Salvar</button>
+
+    <button onclick="pegarDados()">Pegar Dados</button> -->
 
     <script src="script.js"></script>
 

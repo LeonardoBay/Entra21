@@ -6,7 +6,7 @@ body{
     vertical-align: baseline;
     background-size: cover;
     font-family: 'Roboto', sans-serif;
-    background-image: url(fundo.jpg);
+    background-image: url(img/fundo.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,6 +41,7 @@ input {
 button {
     border-radius: 5px;
     margin-top: 20px;
+    border
 }
 
 #esqueci_cadastro {

@@ -16,41 +16,38 @@
     
     <form id="login">
         <h2>Bem-Vindo!</h2>
-        <label for="usuario">
-            <p>Usuário:</p>
-            <input type="text" id="usuario">
+        <label for="email">
+            <p>E-mail:</p>
+            <input type="text" id="email">
         </label>
 
         <label for="senha">
             <p>Senha:</p>
-            <input type="text" id="senha">
+            <input type="password" id="senha">
         </label>
 
-        <div id="esqueci">
-           <input type="checkbox"> Manter o Login 
-        </div>
-
-        <button id="logar">Entrar</button>
+        <!-- <div id="manterLogin">
+           <input type="checkbox" id="manterLogin"> Manter o Login 
+        </div> -->    
 
         <div id="esqueci_cadastro">
-            <div id="esqueci">Esqueci a senha</div>
-            <div id="cadastrar">Cadastrar nova conta</div>
+            <div id="esqueci"><a href="">Esqueci a senha</a></div>
+            <div id="cadastrar"><a href="index2.html">Cadastrar nova conta</a></div>
         </div>
 
-       
-       
+        <button onclick="objetoJson()" id="logar">Entrar</button>
        
     </form>
 
+       
+    
+    
     <div>
-        <img src="login.jpg" alt="">
-       </div>
+        <img src="img/login.jpg" alt="">
 
-    <!-- ?<button onclick="objetoJson()">Salvar</button>
+    </div>
 
-    <button onclick="pegarDados()">Pegar Dados</button> -->
 
     <script src="script.js"></script>
-
 </body>
 </html>
